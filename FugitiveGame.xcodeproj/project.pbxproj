@@ -178,6 +178,8 @@
 		8EB635311BC93F2800F10E20 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Michael Cheng";
 				TargetAttributes = {
@@ -425,6 +427,7 @@
 				8EB6355A1BC93F2800F10E20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EB6355B1BC93F2800F10E20 /* Build configuration list for PBXNativeTarget "FugitiveGameTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +436,7 @@
 				8EB6355D1BC93F2800F10E20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
