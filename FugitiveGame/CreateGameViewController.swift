@@ -14,17 +14,23 @@ class CreateGameViewController : UIViewController, UITextFieldDelegate {
     var minutes: Int?
     
     override func viewDidLoad() {
+        self.view.backgroundColor = UIColor.whiteColor()
+        
         let nameField = UITextField(frame: CGRectMake(60, 100, 200, 30))
         nameField.delegate = self
         nameField.placeholder = "Room Name"
-        
         self.view.addSubview(nameField)
         
-        let timer = UIDatePicker(frame: CGRectMake(60, 180, 200, 100))
+        var gestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        self.view.addGestureRecognizer(gestureRecognizer)
+        
+        let timer = UIDatePicker(frame: CGRectMake(0, 180, 320, 100))
         timer.datePickerMode = UIDatePickerMode.CountDownTimer
         timer.addTarget(self, action: "timerDidChangeTime:", forControlEvents: UIControlEvents.ValueChanged)
         minutes = timer.minuteInterval
         self.view.addSubview(timer)
+        
+        
     }
     
     func textFieldDidEndEditing(textField: UITextField) {
@@ -33,6 +39,11 @@ class CreateGameViewController : UIViewController, UITextFieldDelegate {
     }
     
     func timerDidChangeTime(sender : AnyObject) {
+        let aTimer = sender as! UIDatePicker
         
+    }
+    
+    func dismissKeyboard() {
+        self.view.endEditing(true)
     }
 }

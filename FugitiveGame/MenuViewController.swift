@@ -11,13 +11,13 @@ import UIKit
 class MenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.whiteColor()
         
-        let button = UIButton(frame: CGRectMake(100, 100, 100, 50))
-        button.setTitle("Create", forState: UIControlState.Normal)
-        button.addTarget(self, action: "createGame", forControlEvents: UIControlEvents.TouchUpInside)
-        button.backgroundColor = UIColor.grayColor()
-        
-        self.view.addSubview(button)
+        let createGameButton = UIButton(frame: CGRectMake(100, 100, 100, 50))
+        createGameButton.setTitle("Create", forState: UIControlState.Normal)
+        createGameButton.addTarget(self, action: "createGame", forControlEvents: UIControlEvents.TouchUpInside)
+        createGameButton.backgroundColor = UIColor.grayColor()
+        self.view.addSubview(createGameButton)
     }
     
     func createGame() {

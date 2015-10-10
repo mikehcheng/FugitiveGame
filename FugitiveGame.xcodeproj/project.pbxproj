@@ -14,6 +14,7 @@
 		8EB635551BC93F2800F10E20 /* FugitiveGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB635541BC93F2800F10E20 /* FugitiveGameTests.swift */; };
 		8EB6355F1BC94F2700F10E20 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6355E1BC94F2700F10E20 /* MenuViewController.swift */; };
 		8EB635631BC9526A00F10E20 /* CreateGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB635621BC9526A00F10E20 /* CreateGameViewController.swift */; };
+		8EB635651BC961E800F10E20 /* ReadyScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB635641BC961E800F10E20 /* ReadyScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8EB635541BC93F2800F10E20 /* FugitiveGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FugitiveGameTests.swift; sourceTree = "<group>"; };
 		8EB6355E1BC94F2700F10E20 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		8EB635621BC9526A00F10E20 /* CreateGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGameViewController.swift; sourceTree = "<group>"; };
+		8EB635641BC961E800F10E20 /* ReadyScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			children = (
 				8EB6355E1BC94F2700F10E20 /* MenuViewController.swift */,
 				8EB635621BC9526A00F10E20 /* CreateGameViewController.swift */,
+				8EB635641BC961E800F10E20 /* ReadyScreenViewController.swift */,
 			);
 			name = Menu;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB635651BC961E800F10E20 /* ReadyScreenViewController.swift in Sources */,
 				8EB635411BC93F2800F10E20 /* MapViewController.swift in Sources */,
 				8EB6355F1BC94F2700F10E20 /* MenuViewController.swift in Sources */,
 				8EB635631BC9526A00F10E20 /* CreateGameViewController.swift in Sources */,
