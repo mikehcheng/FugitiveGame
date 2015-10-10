@@ -1,0 +1,6 @@
+framework module Pods_FugitiveGame {
+  umbrella header "Pods-FugitiveGame-umbrella.h"
+
+  export *
+  module * { export * }
+}
