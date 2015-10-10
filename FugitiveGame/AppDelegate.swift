@@ -8,6 +8,9 @@
 
 import UIKit
 
+let host = "localhost:8900"
+let kUserKey = "kUserKey"
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

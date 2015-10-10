@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		570277511158C1CBBEDBDA13 /* Pods_FugitiveGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A00C437A9A476D16D87A657 /* Pods_FugitiveGame.framework */; };
+		8E5176D71BC99A0400A9CF9D /* SocketSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5176D61BC99A0400A9CF9D /* SocketSingleton.swift */; settings = {ASSET_TAGS = (); }; };
 		8EB6353F1BC93F2800F10E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6353E1BC93F2800F10E20 /* AppDelegate.swift */; };
 		8EB635411BC93F2800F10E20 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB635401BC93F2800F10E20 /* MapViewController.swift */; };
 		8EB635461BC93F2800F10E20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB635451BC93F2800F10E20 /* Images.xcassets */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		6A00C437A9A476D16D87A657 /* Pods_FugitiveGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FugitiveGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5176D61BC99A0400A9CF9D /* SocketSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketSingleton.swift; sourceTree = "<group>"; };
 		8EB635391BC93F2800F10E20 /* FugitiveGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FugitiveGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB6353D1BC93F2800F10E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB6353E1BC93F2800F10E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				8EB635611BC9525100F10E20 /* Map */,
 				8EB635601BC9523D00F10E20 /* Menu */,
 				8EB6353E1BC93F2800F10E20 /* AppDelegate.swift */,
+				8E5176D61BC99A0400A9CF9D /* SocketSingleton.swift */,
 				8EB635451BC93F2800F10E20 /* Images.xcassets */,
 				8EB635471BC93F2800F10E20 /* LaunchScreen.xib */,
 				8EB6353C1BC93F2800F10E20 /* Supporting Files */,
@@ -314,6 +317,7 @@
 				8EB635411BC93F2800F10E20 /* MapViewController.swift in Sources */,
 				8EB6355F1BC94F2700F10E20 /* MenuViewController.swift in Sources */,
 				8EB635631BC9526A00F10E20 /* CreateGameViewController.swift in Sources */,
+				8E5176D71BC99A0400A9CF9D /* SocketSingleton.swift in Sources */,
 				8EB6353F1BC93F2800F10E20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
