@@ -89,8 +89,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-FugitiveGame/RKValueTransformers.framework"
   install_framework "Pods-FugitiveGame/RestKit.framework"
   install_framework "Pods-FugitiveGame/SOCKit.framework"
-  install_framework "Pods-FugitiveGame/Socket_IO_Client_Swift.framework"
+  install_framework "Pods-FugitiveGame/SocketRocket.framework"
   install_framework "Pods-FugitiveGame/TransitionKit.framework"
+  install_framework "Pods-FugitiveGame/socket_IO.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-FugitiveGame/AFNetworking.framework"
@@ -98,6 +99,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-FugitiveGame/RKValueTransformers.framework"
   install_framework "Pods-FugitiveGame/RestKit.framework"
   install_framework "Pods-FugitiveGame/SOCKit.framework"
-  install_framework "Pods-FugitiveGame/Socket_IO_Client_Swift.framework"
+  install_framework "Pods-FugitiveGame/SocketRocket.framework"
   install_framework "Pods-FugitiveGame/TransitionKit.framework"
+  install_framework "Pods-FugitiveGame/socket_IO.framework"
 fi

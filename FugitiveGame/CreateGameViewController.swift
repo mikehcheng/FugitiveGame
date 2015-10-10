@@ -21,7 +21,7 @@ class CreateGameViewController : UIViewController, UITextFieldDelegate {
         nameField.placeholder = "Room Name"
         self.view.addSubview(nameField)
         
-        var gestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         self.view.addGestureRecognizer(gestureRecognizer)
         
         let timer = UIDatePicker(frame: CGRectMake(0, 180, 320, 100))
@@ -29,8 +29,6 @@ class CreateGameViewController : UIViewController, UITextFieldDelegate {
         timer.addTarget(self, action: "timerDidChangeTime:", forControlEvents: UIControlEvents.ValueChanged)
         minutes = timer.minuteInterval
         self.view.addSubview(timer)
-        
-        
     }
     
     func textFieldDidEndEditing(textField: UITextField) {
