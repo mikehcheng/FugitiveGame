@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        var rootViewController: MenuViewController = MenuViewController()
+        let rootViewController: MenuViewController = MenuViewController()
         
         if let window = self.window {
             window.rootViewController = rootViewController
