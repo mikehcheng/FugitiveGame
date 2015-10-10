@@ -22,23 +22,20 @@ PODS:
   - RestKit/Support (0.25.0):
     - TransitionKit (~> 2.1.0)
   - RKValueTransformers (1.1.2)
-  - socket.IO (0.5.2):
-    - SocketRocket (~> 0.2)
-  - SocketRocket (0.4.1)
+  - Socket.IO-Client-Swift (3.1.4)
   - SOCKit (1.1)
   - TransitionKit (2.1.1)
 
 DEPENDENCIES:
   - RestKit (~> 0.25.0)
-  - socket.IO (~> 0.5.2)
+  - Socket.IO-Client-Swift (~> 3.1.4)
 
 SPEC CHECKSUMS:
   AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
   ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
   RestKit: a4fcaf3d4bb2c204679856a46d596160bf208095
   RKValueTransformers: 66ac5e4f077fdbe3496e792d89eeff4c3eb67701
-  socket.IO: eaaaea33481d8a81d8f78e331f0c72ba44758036
-  SocketRocket: ee0b5c34182d37bb4f1f8d628bbe737718126daa
+  Socket.IO-Client-Swift: a0c8a6ba85ea685891d2c5f0e73b7287b89d0121
   SOCKit: c7376ac262bea9115b8f749358f762522a47d392
   TransitionKit: 3a14b6acc7cf2d1dd3e454e24dbad1cfab9a1ef1
 

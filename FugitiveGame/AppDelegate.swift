@@ -16,12 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        let rootViewController: MenuViewController = MenuViewController()
-        
-        if let window = self.window {
-            window.rootViewController = rootViewController
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        if let window = window {
+            window.backgroundColor = UIColor.whiteColor()
+            window.rootViewController = MenuViewController()
+            window.makeKeyAndVisible()
         }
-        
         return true
     }
 

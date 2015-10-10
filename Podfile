@@ -5,5 +5,5 @@ use_frameworks!
 
 target 'FugitiveGame' do
   pod 'RestKit', '~> 0.25.0'
-  pod 'socket.IO', '~> 0.5.2'
+  pod 'Socket.IO-Client-Swift', '~> 3.1.4'
 end
