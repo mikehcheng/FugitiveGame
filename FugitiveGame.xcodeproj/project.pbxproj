@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8EB6353F1BC93F2800F10E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6353E1BC93F2800F10E20 /* AppDelegate.swift */; };
-		8EB635411BC93F2800F10E20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB635401BC93F2800F10E20 /* ViewController.swift */; };
-		8EB635441BC93F2800F10E20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB635421BC93F2800F10E20 /* Main.storyboard */; };
+		8EB635411BC93F2800F10E20 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB635401BC93F2800F10E20 /* MapViewController.swift */; };
 		8EB635461BC93F2800F10E20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB635451BC93F2800F10E20 /* Images.xcassets */; };
 		8EB635491BC93F2800F10E20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB635471BC93F2800F10E20 /* LaunchScreen.xib */; };
 		8EB635551BC93F2800F10E20 /* FugitiveGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB635541BC93F2800F10E20 /* FugitiveGameTests.swift */; };
+		8EB6355F1BC94F2700F10E20 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6355E1BC94F2700F10E20 /* MenuViewController.swift */; };
+		8EB635631BC9526A00F10E20 /* CreateGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB635621BC9526A00F10E20 /* CreateGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		8EB635391BC93F2800F10E20 /* FugitiveGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FugitiveGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB6353D1BC93F2800F10E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB6353E1BC93F2800F10E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EB635401BC93F2800F10E20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8EB635431BC93F2800F10E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EB635401BC93F2800F10E20 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8EB635451BC93F2800F10E20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8EB635481BC93F2800F10E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8EB6354E1BC93F2800F10E20 /* FugitiveGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FugitiveGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB635531BC93F2800F10E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB635541BC93F2800F10E20 /* FugitiveGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FugitiveGameTests.swift; sourceTree = "<group>"; };
+		8EB6355E1BC94F2700F10E20 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8EB635621BC9526A00F10E20 /* CreateGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,9 @@
 		8EB6353B1BC93F2800F10E20 /* FugitiveGame */ = {
 			isa = PBXGroup;
 			children = (
+				8EB635611BC9525100F10E20 /* Map */,
+				8EB635601BC9523D00F10E20 /* Menu */,
 				8EB6353E1BC93F2800F10E20 /* AppDelegate.swift */,
-				8EB635401BC93F2800F10E20 /* ViewController.swift */,
-				8EB635421BC93F2800F10E20 /* Main.storyboard */,
 				8EB635451BC93F2800F10E20 /* Images.xcassets */,
 				8EB635471BC93F2800F10E20 /* LaunchScreen.xib */,
 				8EB6353C1BC93F2800F10E20 /* Supporting Files */,
@@ -110,6 +112,23 @@
 				8EB635531BC93F2800F10E20 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EB635601BC9523D00F10E20 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				8EB6355E1BC94F2700F10E20 /* MenuViewController.swift */,
+				8EB635621BC9526A00F10E20 /* CreateGameViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		8EB635611BC9525100F10E20 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8EB635401BC93F2800F10E20 /* MapViewController.swift */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB635441BC93F2800F10E20 /* Main.storyboard in Resources */,
 				8EB635491BC93F2800F10E20 /* LaunchScreen.xib in Resources */,
 				8EB635461BC93F2800F10E20 /* Images.xcassets in Resources */,
 			);
@@ -212,7 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB635411BC93F2800F10E20 /* ViewController.swift in Sources */,
+				8EB635411BC93F2800F10E20 /* MapViewController.swift in Sources */,
+				8EB6355F1BC94F2700F10E20 /* MenuViewController.swift in Sources */,
+				8EB635631BC9526A00F10E20 /* CreateGameViewController.swift in Sources */,
 				8EB6353F1BC93F2800F10E20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +256,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8EB635421BC93F2800F10E20 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8EB635431BC93F2800F10E20 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8EB635471BC93F2800F10E20 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

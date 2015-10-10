@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        UIView.appearance().backgroundColor = UIColor.whiteColor()
+        
+        var rootViewController: MenuViewController = MenuViewController()
+        
+        if let window = self.window {
+            window.rootViewController = rootViewController
+        }
+        
         return true
     }
 
