@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EB6353F1BC93F2800F10E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6353E1BC93F2800F10E20 /* AppDelegate.swift */; };
+		8EB635411BC93F2800F10E20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB635401BC93F2800F10E20 /* ViewController.swift */; };
+		8EB635441BC93F2800F10E20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB635421BC93F2800F10E20 /* Main.storyboard */; };
+		8EB635461BC93F2800F10E20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB635451BC93F2800F10E20 /* Images.xcassets */; };
+		8EB635491BC93F2800F10E20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB635471BC93F2800F10E20 /* LaunchScreen.xib */; };
+		8EB635551BC93F2800F10E20 /* FugitiveGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB635541BC93F2800F10E20 /* FugitiveGameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EB6354F1BC93F2800F10E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB635311BC93F2800F10E20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB635381BC93F2800F10E20;
+			remoteInfo = FugitiveGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EB635391BC93F2800F10E20 /* FugitiveGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FugitiveGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB6353D1BC93F2800F10E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB6353E1BC93F2800F10E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EB635401BC93F2800F10E20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EB635431BC93F2800F10E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EB635451BC93F2800F10E20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8EB635481BC93F2800F10E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8EB6354E1BC93F2800F10E20 /* FugitiveGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FugitiveGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB635531BC93F2800F10E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB635541BC93F2800F10E20 /* FugitiveGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FugitiveGameTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EB635361BC93F2800F10E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB6354B1BC93F2800F10E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EB635301BC93F2800F10E20 = {
+			isa = PBXGroup;
+			children = (
+				8EB6353B1BC93F2800F10E20 /* FugitiveGame */,
+				8EB635511BC93F2800F10E20 /* FugitiveGameTests */,
+				8EB6353A1BC93F2800F10E20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EB6353A1BC93F2800F10E20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EB635391BC93F2800F10E20 /* FugitiveGame.app */,
+				8EB6354E1BC93F2800F10E20 /* FugitiveGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB6353B1BC93F2800F10E20 /* FugitiveGame */ = {
+			isa = PBXGroup;
+			children = (
+				8EB6353E1BC93F2800F10E20 /* AppDelegate.swift */,
+				8EB635401BC93F2800F10E20 /* ViewController.swift */,
+				8EB635421BC93F2800F10E20 /* Main.storyboard */,
+				8EB635451BC93F2800F10E20 /* Images.xcassets */,
+				8EB635471BC93F2800F10E20 /* LaunchScreen.xib */,
+				8EB6353C1BC93F2800F10E20 /* Supporting Files */,
+			);
+			path = FugitiveGame;
+			sourceTree = "<group>";
+		};
+		8EB6353C1BC93F2800F10E20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB6353D1BC93F2800F10E20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EB635511BC93F2800F10E20 /* FugitiveGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EB635541BC93F2800F10E20 /* FugitiveGameTests.swift */,
+				8EB635521BC93F2800F10E20 /* Supporting Files */,
+			);
+			path = FugitiveGameTests;
+			sourceTree = "<group>";
+		};
+		8EB635521BC93F2800F10E20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB635531BC93F2800F10E20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EB635381BC93F2800F10E20 /* FugitiveGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB635581BC93F2800F10E20 /* Build configuration list for PBXNativeTarget "FugitiveGame" */;
+			buildPhases = (
+				8EB635351BC93F2800F10E20 /* Sources */,
+				8EB635361BC93F2800F10E20 /* Frameworks */,
+				8EB635371BC93F2800F10E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FugitiveGame;
+			productName = FugitiveGame;
+			productReference = 8EB635391BC93F2800F10E20 /* FugitiveGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EB6354D1BC93F2800F10E20 /* FugitiveGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB6355B1BC93F2800F10E20 /* Build configuration list for PBXNativeTarget "FugitiveGameTests" */;
+			buildPhases = (
+				8EB6354A1BC93F2800F10E20 /* Sources */,
+				8EB6354B1BC93F2800F10E20 /* Frameworks */,
+				8EB6354C1BC93F2800F10E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB635501BC93F2800F10E20 /* PBXTargetDependency */,
+			);
+			name = FugitiveGameTests;
+			productName = FugitiveGameTests;
+			productReference = 8EB6354E1BC93F2800F10E20 /* FugitiveGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EB635311BC93F2800F10E20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Michael Cheng";
+				TargetAttributes = {
+					8EB635381BC93F2800F10E20 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8EB6354D1BC93F2800F10E20 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8EB635381BC93F2800F10E20;
+					};
+				};
+			};
+			buildConfigurationList = 8EB635341BC93F2800F10E20 /* Build configuration list for PBXProject "FugitiveGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EB635301BC93F2800F10E20;
+			productRefGroup = 8EB6353A1BC93F2800F10E20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EB635381BC93F2800F10E20 /* FugitiveGame */,
+				8EB6354D1BC93F2800F10E20 /* FugitiveGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EB635371BC93F2800F10E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB635441BC93F2800F10E20 /* Main.storyboard in Resources */,
+				8EB635491BC93F2800F10E20 /* LaunchScreen.xib in Resources */,
+				8EB635461BC93F2800F10E20 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB6354C1BC93F2800F10E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EB635351BC93F2800F10E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB635411BC93F2800F10E20 /* ViewController.swift in Sources */,
+				8EB6353F1BC93F2800F10E20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB6354A1BC93F2800F10E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB635551BC93F2800F10E20 /* FugitiveGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EB635501BC93F2800F10E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB635381BC93F2800F10E20 /* FugitiveGame */;
+			targetProxy = 8EB6354F1BC93F2800F10E20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EB635421BC93F2800F10E20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB635431BC93F2800F10E20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EB635471BC93F2800F10E20 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB635481BC93F2800F10E20 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EB635561BC93F2800F10E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EB635571BC93F2800F10E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EB635591BC93F2800F10E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FugitiveGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EB6355A1BC93F2800F10E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FugitiveGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EB6355C1BC93F2800F10E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FugitiveGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FugitiveGame.app/FugitiveGame";
+			};
+			name = Debug;
+		};
+		8EB6355D1BC93F2800F10E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FugitiveGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FugitiveGame.app/FugitiveGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EB635341BC93F2800F10E20 /* Build configuration list for PBXProject "FugitiveGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB635561BC93F2800F10E20 /* Debug */,
+				8EB635571BC93F2800F10E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB635581BC93F2800F10E20 /* Build configuration list for PBXNativeTarget "FugitiveGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB635591BC93F2800F10E20 /* Debug */,
+				8EB6355A1BC93F2800F10E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EB6355B1BC93F2800F10E20 /* Build configuration list for PBXNativeTarget "FugitiveGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB6355C1BC93F2800F10E20 /* Debug */,
+				8EB6355D1BC93F2800F10E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EB635311BC93F2800F10E20 /* Project object */;
+}
