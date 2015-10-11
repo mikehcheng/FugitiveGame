@@ -32,7 +32,11 @@
 /* Begin PBXFileReference section */
 		582B948C236359BAC9F5EE9D /* Pods-FugitiveGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FugitiveGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FugitiveGame/Pods-FugitiveGame.debug.xcconfig"; sourceTree = "<group>"; };
 		6A00C437A9A476D16D87A657 /* Pods_FugitiveGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FugitiveGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+<<<<<<< HEAD
+		7C135119AFE4687F277A3861 /* Pods-FugitiveGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FugitiveGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-FugitiveGame/Pods-FugitiveGame.release.xcconfig"; sourceTree = "<group>"; };
+=======
 		8E5176D61BC99A0400A9CF9D /* SocketSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketSingleton.swift; sourceTree = "<group>"; };
+>>>>>>> 5968ce86f8125c817a2070ba59e3e67324d6ce76
 		8EB635391BC93F2800F10E20 /* FugitiveGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FugitiveGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB6353D1BC93F2800F10E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB6353E1BC93F2800F10E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
