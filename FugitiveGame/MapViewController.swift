@@ -14,6 +14,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     
     var mapView: MKMapView!
     var locationManager: CLLocationManager!
+    let screenSize: CGRect = UIScreen.mainScreen().bounds
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,9 +27,23 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
         }
         
         
-        mapView = MKMapView(frame: self.view.frame)
+        mapView = MKMapView(frame: CGRectMake(0, 0, screenSize.width, screenSize.height/2))
         mapView.delegate = self
-        mapView.scrollEnabled = false
+        mapView.scrollEnabled = true
+        mapView.zoomEnabled = true
+        mapView.tintColor = UIColor.purpleColor()
+        
+        //Pin Annotations
+        let startPin = MKPointAnnotation()
+        startPin.title = "Start"
+        startPin.coordinate = CLLocationCoordinate2DMake(37.869, -122.263)
+        let endPin = MKPointAnnotation()
+        endPin.title = "End"
+        endPin.coordinate = CLLocationCoordinate2DMake(37.874, -122.256)
+        
+        mapView.addAnnotation(startPin)
+        mapView.addAnnotation(endPin)
+        
         self.view.addSubview(mapView)
     }
     
@@ -46,6 +61,25 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
             mapView.showsUserLocation = true
             locationManager.startUpdatingLocation()
         }
+    }
+    
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+        if (annotation is MKUserLocation) {
+            //if annotation is not an MKPointAnnotation (eg. MKUserLocation),
+            //return nil so map draws default view for it (eg. blue dot)...
+            return nil
+        }
+        
+        let anView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "pin")
+        if (annotation.title! == "Start") {
+            if #available(iOS 9.0, *) {
+                anView.pinTintColor = UIColor.blueColor()
+            } else {
+                anView.pinColor = MKPinAnnotationColor.Green
+            }
+        }
+        return anView
+        
     }
     
     // Custom annotation for robber and cop (+nickname), start / end use regular pins?
